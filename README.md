@@ -1,6 +1,9 @@
-# An Occlusion-aware Edge-Based Method for Monocular 3D Object Tracking using Edge Confidence
+# SLET
 
-We propose an edge-based method for 6DOF pose tracking of rigid objects using a monocular RGB camera. One of the critical problem for edge-based methods is to search the object contour points in the image corresponding to the known 3D model points. However, previous methods often produce false object contour points in case of cluttered backgrounds and partial occlusions. In this paper, we propose a novel edge-based 3D objects tracking method to tackle this problem. To search the object contour points, foreground and background clutter points are first filtered out using edge color cue, then object contour points are searched by maximizing their edge confidence which combines edge color and distance cues. Furthermore, the edge confidence is integrated into the edge-based energy function to reduce the influence of false contour points caused by cluttered backgrounds and partial occlusions. We also extend our method to multi-object tracking which can handle mutual occlusions. We compare our method with the recent state-of-art methods on challenging public datasets. Experiments demonstrate that our method improves robustness and accuracy against cluttered backgrounds and partial occlusions.
+SLET is an edge-based method for 6DOF pose tracking of rigid objects using a monocular RGB camera. The edge confidence is integrated into the edge-based energy function to reduce the influence of false contour points caused by cluttered backgrounds and partial occlusions. We also extend our method to multi-object tracking which can handle mutual occlusions. 
+
+## Copyright disclaimer
+This repository is a migration of the original copy of SLET implementation hosted on [Gitee](https://gitee.com/huanghone/SLET). The ownership fully belongs to the original creator, Dr. Hong Huang. This repository was only created to share the work with a broader community.
 
 ### Preview Video
 
@@ -8,9 +11,6 @@ We propose an edge-based method for 6DOF pose tracking of rigid objects using a 
 
 
 ### Related Papers
-
-* **An Occlusion-aware Edge-Based Method for Monocular 3D Object Tracking using Edge Confidence**
-*Hong Huang, Fan Zhong, Xueying Qin*, PG '20
 
 If you use SLET in your research work, please cite:
 
